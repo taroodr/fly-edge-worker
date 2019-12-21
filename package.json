@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "name": "fly-edge-worker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Kotaro Nakamura <n.kotaro.0101@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx fly server",
+    "deploy": "npx fly deploy",
+    "test": "npx fly test"
+  },
+  "dependencies": {
+    "@fly/cdn": "^0.5.2",
+    "@types/md5": "^2.1.33",
+    "graphql": "^14.5.8",
+    "graphql-tag": "^2.10.1",
+    "lodash": "^4.17.15",
+    "md5": "^2.2.1"
+  },
+  "devDependencies": {
+    "ts-loader": "^3.5.0",
+    "typescript": "^3.1.2"
+  }
+}
